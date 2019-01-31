@@ -1,0 +1,16 @@
+[general]
+chrLenFile= /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/Homo_sapiens.GRCh37.GATK.illumina.len
+ploidy=2
+samtools=/hpc/local/CentOS7/cog_bioinf/samtools-1.2/samtools
+sambamba=/hpc/local/CentOS7/cog_bioinf/sambamba_v0.6.5/sambamba
+chrFiles= /hpc/cog_bioinf/GENOMES/Homo_sapiens.GRCh37.GATK.illumina/chr_files
+window=1000
+maxThreads=12
+telocentromeric=50000
+BedGraphOutput=TRUE
+gemMappabilityFile=/hpc/cog_bioinf/common_dbs/hg19_mappability_tracks/out100m2_hg19.gem
+outputDir=/hpc/cog_bioinf/kloosterman/users/jvalleinclan/ovarian/WGS/purple/results/T7/FREEC_sample_2Ploidy
+[sample]
+inputFormat=BAM
+mateOrientation=FR
+mateFile=/hpc/cog_bioinf/kloosterman/users/jvalleinclan/ovarian/WGS/data/bam/LGS_1/T7.bam
